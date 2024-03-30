@@ -23,7 +23,7 @@ function AboutMe() {
   return (
     <div id="AboutMe">
       <div className="container pt-8">
-        <div className="flex lg:flex-row flex-col items-center justify-center gap-16">
+        <div className="flex lg:flex-row flex-col-reverse md:flex-col  items-center justify-center gap-16">
           <figure className="basis-1/3 "  data-aos="fade-zoom-in"
               data-aos-delay="50"
               data-aos-duration="1000">

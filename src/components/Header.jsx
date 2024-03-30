@@ -3,7 +3,7 @@ import "../App.css";
 export default function Header() {
     const [open,isOpen]=useState(false)
   return (
-    <header className="w-full h-[80px] leading-[80px] flex items-center">
+    <header className="w-full sticky top-[-10px] bg-white shadow-xl z-30 h-[80px] leading-[80px] flex items-center">
       <div className="container">
 
         <div className="flex items-center justify-between">
